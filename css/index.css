@@ -38,13 +38,78 @@
     float: left;
     margin-right: 10px;
     overflow: hidden;
-    width: 800px;
+    width: 790px;
     height: 480px;
 }
 .J_focus {
+    position: relative;
     margin-top: 10px;
+    padding-top: 10px;
     height: 470px;
+    background-color: #f6f6f6;
+}
+.focus_slider {
+    position: absolute;
+    left: 0;
+    width: 590px;
+    height: 470px;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 35px;
+    margin-top: -17.5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.arrow-l {
+    left: 0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.arrow-r {
+    right: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.slider_indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.slider_indicators li {
+    float: left;
+    width: 9px;
+    height: 9px;
+    margin-right: 4px;
+    border:1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(255,255,255,.4);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider_indicators .slider_current {
     background-color: #fff;
+}
+.focus_wrapper {
+    position: absolute;
+    right: 0;
+    width: 190px;
+    height: 470px;
+}
+.focus_wrapper_item {
+    display: block;
+    width: 190px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.focus_wrapper_item img {
+    width: 100%;
+    height: 100%;
 }
 .fs_col3 {
     margin-top: 10px;
@@ -182,4 +247,36 @@
     background-color: rgba(225,37,27,.08);
     margin-right: 6px;
     text-align: center;
+}
+.service_entry {
+    width: 189px;
+    height: 230px;
+    padding: 5px 0.5px;
+}
+.service_list {
+    height: 225px;
+    padding-top: 5px;
+}
+.service_item {
+    float: left;
+    width: 63px;
+    height: 55px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.service_lk {
+    display: block;
+}
+.service_ico {
+    display: inline-block;
+    overflow: visible;
+    background-size: 200px 59.3px;
+}
+.service_ico_img {
+    width: 28px;
+    height: 28px;
+}
+.service_txt {
+    display: block;
 }
