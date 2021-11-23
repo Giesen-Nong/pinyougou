@@ -1,5 +1,6 @@
 .fs {
     height: 480px;
+    margin-bottom: 30px;
 }
 .grid {
     height: 480px;
@@ -63,7 +64,9 @@
     margin-top: -17.5px;
     background-color: rgba(0, 0, 0, 0.2);
     line-height: 35px;
+    z-index: 999;
     font-size: 20px;
+    border: none;
     text-align: center;
     color: #fff;
 }
@@ -279,4 +282,204 @@
 }
 .service_txt {
     display: block;
+}
+.seckill {
+    height: 260px;
+    background: white;
+}
+.seckill_countdownbox {
+    float: left;
+    width: 190px;
+    height: 260px;
+    background-color: #e83632;
+    background: url(../img/seckillbg.png) no-repeat;
+}
+.seckill_countdown {
+    color: #fff;
+}
+.seckill_countdown:hover {
+    color: #fff;
+}
+.seckill_countdown_tit {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+.seckill_countdown_desc {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 90px;
+}
+.seckill_countdown_desc strong {
+    font-size: 18px;
+}
+.seckill_countdown_timer {
+    position: relative;
+    float: left;
+    margin-left: 28px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+.timer_style {
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #2f3430;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.timer_split {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.timer_split_l {
+    left: 37px; 
+}
+.timer_split_r {
+    right: 97px;
+}
+.seckill_list {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 260px;
+    background-color: white;
+}
+.slider_wrapper {
+    width: 8000px;
+    height: 260px;
+}
+.slider_item {
+    float: left;
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 260px;
+    background-color: white;
+}
+.slider_item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 200px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: -webkit-gradient(linear,left top,left bottom,from(white),color-stop(#eeeeee),to(white));
+    background: linear-gradient(180deg,white,#eeeeee,white);
+}
+.item_img_lk {
+    width: 140px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item_img {
+    width: 100%;
+    height: 100%;
+}
+.item_name {
+    font-size: 12px;
+    font-weight: 400;
+    width: 160px;
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item_price {
+    width: 160px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    text-align: center;
+    color: #e1251b;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.seckill_brand {
+    float: left;
+    width: 180px;
+    height: 240px;
+    padding: 10px;
+
+}
+.brand_item {
+    width: 190px;
+    height: 240px;
+}
+.brand_item_img_lk {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item_info {
+    height: 90px;
+    background: linear-gradient(180deg,rgba(255,255,255,.5),rgba(220,224,236,.5));
+}
+.item_info_tit {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+.item_info_promo {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+.item_info_button {
+    display: inline-block;
+    width: 82px;
+    height: 24px;
+    margin-left: 54px;
+    margin-top: 3px;
+    padding-left: 3px;
+    line-height: 21px;
+    color: #e1251b;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 14px;
+    border: 1px solid #e1251b;
+}
+.slider_indicators {
+    position: absolute;
+    margin-left: -6px;
+    bottom: 5px;
+    left: 50%;
+    text-align: center;
+    font-size: 0;
+}
+.slider_indicators_btn {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #999;
+    margin-right: 3px;
+
 }
