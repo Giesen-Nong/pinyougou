@@ -483,3 +483,231 @@
     margin-right: 3px;
 
 }
+.block1 {
+    margin: 20px 0;
+    height: 340px;
+}
+.special_offer {
+    float: left;
+    width: 590px;
+    height: 340px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.item_dh {
+    height: 60px;
+    padding: 0 20px;
+}
+.special_offer_item {
+    height: 285px;
+    padding: 0 15px 15px;
+}
+.dh_lk {
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+.dh_tit {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.dh_go {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -22px;
+    bottom: 3px;
+    background: url(../img/sprite.png) no-repeat -16px 0px;
+    
+}
+.tab_head {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    
+}
+.tab_head li{
+    float: left;
+    padding: 0 13.5px;
+    font-size: 14px;
+}
+.tab_head_tit {
+    width: 28px;
+    height: 21px;
+    cursor: pointer;
+}
+.tab_head_tit:hover {
+    color: #e1251b;
+    border-bottom: 3px solid #e1251b;
+}
+.now {
+    color: #e1251b;
+    border-bottom: 3px solid #e1251b;
+}
+.lowest_item {
+    float: left;
+    width: 170px;
+    height: 265px;
+    margin-right: 10px;
+    background-color: rgba(109,126,146,.05);
+}
+.l_item_info {
+    position: relative;
+    width: 170px;
+    display: inline-block
+}
+.tip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 24px;
+    line-height: 24px;
+    background: url(../img/bg-orange.png) no-repeat;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.l_item_img_lk {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 42px auto 0;
+}
+.l_item_img {
+    width: 100%;
+    height: 100%;
+}
+.l_item_name {
+    height: 19px;
+    width: 150px;
+    margin: 9px 10px 4px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.l_item_price {
+    font-size: 20px;
+    margin-left: 58px;
+    color: #e1251b;
+    font-weight: 700;
+}
+.lowest_item .price_ico {
+    font-size: 14px;
+}
+.special_item_list {
+    display: inline-block;
+    width: 380px;
+    height: 265px;
+}
+.special_item {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+}
+.special_item_img_lk {
+    width: 84px;
+    height: 84px;
+}
+.special_item_img {
+    width: 100%;
+    height: 100%;
+}
+.special_item_name {
+    position: absolute;
+    right: 1px;
+    top: 15px;
+    width: 75px;
+    height: 32px;
+}
+.special_item_price {
+    position: absolute;
+    top: 52px;
+    right: 41px;
+    color: #e1251b;
+    font-size: 14px;
+    font-weight: 700;
+}
+.lightning_buy {
+    float: left;
+    width: 600px;
+    height: 340px;
+    background-color: #fff;
+}
+.lightning_top {
+    float: left;
+    width: 270px;
+    height: 265px;
+    margin-left: 15px;
+    background: linear-gradient(180deg,rgba(245,175,175,.05),rgba(79,3,3,.05));
+}
+.lightning_top a {
+    width: 270px;
+
+    text-align: center;
+    display: inline-block;
+}
+.top_name_img {
+    display: block;
+    width: 70px;
+    height: 35px;
+    margin: 15px auto 10px;
+}
+.top_tit {
+    font-size: 16px;
+    color: #333;
+}
+.top_day {
+    padding: 2px;
+    font-weight: 700;
+}
+.top_good_img {
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+}
+.lightning_merchants {
+    float: left;
+    display: inline-block;
+    width: 270px;
+    margin-left: 20px;
+    margin-top: -48px;
+}
+.merchants {
+    position: relative;
+    float: left;
+    width: 135px;
+    height: 100px;
+    padding: 8px 0;
+    text-align: center;
+    
+}
+.merchants_img {
+    width: 100px;
+    height: 50px;
+}
+.merchants:hover {
+    opacity: .8;
+    color: #666;
+}
+.merchants_tit {
+    margin-top: -2px;
+    color: #333;
+}
+.merchants:nth-child(2n - 1)::after {
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 60px;
+    right: 0;
+    top: 50%;
+    margin-top: -40px;
+    background: -webkit-gradient(linear,left top,left bottom,from(white),color-stop(#eeeeee),color-stop(#eeeeee),to(white));
+    background: linear-gradient(180deg,white,#eeeeee,#eeeeee,white);
+    content: "";
+}
