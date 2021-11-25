@@ -367,6 +367,9 @@
     height: 260px;
     background-color: white;
 }
+.slider_item:hover {
+    opacity: .8;
+}
 .slider_item::after {
     content: "";
     display: block;
@@ -501,6 +504,9 @@
 .special_offer_item {
     height: 285px;
     padding: 0 15px 15px;
+}
+.special_offer_item a:hover {
+    opacity: .8;
 }
 .dh_lk {
     position: relative;
@@ -673,7 +679,6 @@
 }
 .lightning_merchants {
     float: left;
-    display: inline-block;
     width: 270px;
     margin-left: 20px;
     margin-top: -48px;
@@ -710,4 +715,77 @@
     background: -webkit-gradient(linear,left top,left bottom,from(white),color-stop(#eeeeee),color-stop(#eeeeee),to(white));
     background: linear-gradient(180deg,white,#eeeeee,#eeeeee,white);
     content: "";
+}
+.block2 {
+    position: relative;
+    height: 260px;
+}
+.findgoods_logo {
+    float: left;
+    display: block;
+    position: relative;
+    width: 190px;
+    height: 260px;
+    margin-right: 10px;
+    background: url(../img/findgoos-bg.png);
+}
+.findgoods_logo_img {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    margin-left: -80px;
+}
+.findgoods_slogan {
+    position: absolute;
+    left: 50%;
+    margin-left: -62px;
+    top: 72px;
+    font-size: 16px;
+    color: #FFFFFFCC;
+
+}
+.findgoods_ico {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 122px;
+    top: 76px;
+    background: url(../img/sprite.png) no-repeat 0px -16px;
+}
+.findgoods_logo:hover .findgoods_ico {
+    background: url(../img/sprite.png) no-repeat 0px 0px;
+}
+.findgoods_slider {
+    float: left;
+    width: 1000px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+    
+}
+.findgoods_itemlist {
+    width: 2000px;
+    height: 100%;
+}
+.findgoods_item {
+    float: left;
+    text-align: center;
+    width: 150px;
+    height: 181px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.findgoods_item_img {
+    width: 150px;
+    height: 150px;
+}
+.findgoods_item_name {
+    font-size: 14px;
+    color: #333;
+}
+.findgoods_item:hover {
+    opacity: .8;
+}
+.findgoods_item:hover .findgoods_item_name {
+    color: #e1251b;
 }
