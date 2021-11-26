@@ -44,8 +44,7 @@
 }
 .J_focus {
     position: relative;
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-top: 10px;   
     height: 470px;
     background-color: #f6f6f6;
 }
@@ -428,7 +427,7 @@
 
 }
 .brand_item {
-    width: 190px;
+    width: 180px;
     height: 240px;
 }
 .brand_item_img_lk {
@@ -641,7 +640,7 @@
 }
 .lightning_buy {
     float: left;
-    width: 600px;
+    width: 590px;
     height: 340px;
     background-color: #fff;
 }
@@ -724,7 +723,7 @@
     float: left;
     display: block;
     position: relative;
-    width: 190px;
+    width: 180px;
     height: 260px;
     margin-right: 10px;
     background: url(../img/findgoos-bg.png);
@@ -748,7 +747,7 @@
     position: absolute;
     width: 16px;
     height: 16px;
-    left: 122px;
+    left: 117px;
     top: 76px;
     background: url(../img/sprite.png) no-repeat 0px -16px;
 }
@@ -788,4 +787,92 @@
 }
 .findgoods_item:hover .findgoods_item_name {
     color: #e1251b;
+}
+.block3 {
+    position: relative;
+    width: 1200px;
+    height: 340px;
+    margin-top: 20px;
+}
+.block3_container {
+    float: left;
+    width: 290px;
+    height: 340px;
+    margin-right: 10px;
+    background-color: #FFFFFFCC;
+}
+.newitme_slider {
+    position: relative;
+    width: 290px;
+    height: 250px;
+}
+.newitem_list {
+    width: 260px;
+    height: 250px;
+    margin: 0 auto;
+}
+.joy_box {
+    width: 290px;
+}
+.joy_head {
+    width: 280px;
+    height: 35px;
+    text-align: center;
+    margin-left: 4px;
+}
+.joy_head_item {
+    display: inline-block;
+    width: 62px;
+    height: 20px;
+    margin: 0 2px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 12px;
+    color: #999;
+    background-color: #f6f6f6;
+}
+.joy_head_item:hover,
+.joy_now {
+    background-color: #e1251b;
+    color: #fff;
+}
+.joy_item {
+    display: block;
+    width: 290px;
+    height: 70px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.joy_item_img {
+    margin-left: 16px;
+    float: left;
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.joy_item_text {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+    margin-left: 8px;
+}
+.joy_item_name {
+    display: block;
+    overflow: hidden;
+    width: 180px;
+    height: 38px;
+    font-size: 14px;
+    color: #333;
+}
+.joy_item_price {
+    position: absolute;
+    left: -45px;
+    bottom: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.joy_item_price .price_ico {
+    font-size: 12px;
 }
