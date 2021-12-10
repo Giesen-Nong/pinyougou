@@ -285,7 +285,11 @@
     text-align: center;
     overflow: hidden;
 }
+.service_item:hover .service_ico_img_hover {
+    opacity: 1;
+}
 .service_lk {
+    position: relative;
     display: block;
 }
 .service_ico {
@@ -296,6 +300,14 @@
 .service_ico_img {
     width: 28px;
     height: 28px;
+}
+.service_ico_img_hover {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    opacity: 0;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
 }
 .service_txt {
     display: block;
